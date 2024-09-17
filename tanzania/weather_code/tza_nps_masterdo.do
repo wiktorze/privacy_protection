@@ -24,7 +24,7 @@
 	clear mata
 
 *set max vars
-	set maxvar 120000, perm  // this amount is only allowed for MP editions 
+*	set maxvar 120000, perm  // this amount is only allowed for MP editions 
 
 * define paths
 	loc root = "$code/tanzania/weather_code"

@@ -24,7 +24,7 @@
 clear
 
 *set max vars
-	set maxvar 120000, perm  // this amount is only allowed for MP editions
+	*set maxvar 120000, perm  // this amount is only allowed for MP editions
 
 * set global user
 	global user "jdmichler"
