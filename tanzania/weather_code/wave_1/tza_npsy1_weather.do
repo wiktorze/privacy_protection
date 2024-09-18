@@ -29,9 +29,9 @@
 	*global user "jdmichler" // global user set in TZA_NPS_masterdo
 
 * define paths	
-	loc root = "G:/My Drive/weather_project/weather_data/tanzania/wave_1/daily"
-	loc export = "G:/My Drive/weather_project/weather_data/tanzania/wave_1/refined"
-	loc logout = "G:/My Drive/weather_project/weather_data/tanzania/logs"
+	loc root = "$data/weather_data/tanzania/wave_1/daily"
+	loc export = "$data/weather_data/tanzania/wave_1/refined"
+	loc logout = "$data/weather_data/tanzania/logs"
 
 * open log	
 	log using "`logout'/tza_npsy1_weather", replace

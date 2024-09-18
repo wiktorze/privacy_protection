@@ -32,7 +32,7 @@
 	loc 	logout 	= 	"$data/weather_data/malawi/logs"
 
 * open log
-	log 	using 		"`logout'/mwi_ihps_weather"
+	log 	using 		"`logout'/mwi_ihps_weather", replace
 
 
 * **********************************************************************

@@ -27,10 +27,10 @@ clear
 	*set maxvar 120000, perm  // this amount is only allowed for MP editions 
 	
 * set global user
-	global user "jdmichler"
+	*global user "jdmichler"
 
 * define paths
-	loc root = "C:/Users/$user/git/weather_project/niger/weather_code"
+	loc root = "$code/niger/weather_code"
 
 
 * **********************************************************************

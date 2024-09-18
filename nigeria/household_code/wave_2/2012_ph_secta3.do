@@ -38,7 +38,7 @@
 * **********************************************************************
 
 * import the first relevant data file
-	use 			"`root'\secta3_harvestw2.dta" , clear
+	use 			"`root'/secta3_harvestw2.dta" , clear
 
 	tab 			cropcode
 	*** main crop is "cassava old"

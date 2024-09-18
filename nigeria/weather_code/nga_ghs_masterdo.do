@@ -27,7 +27,7 @@
 	*set maxvar 120000, perm  // this amount is only allowed for MP editions 
 
 * define paths
-	loc root = "C:/Users/$user/git/weather_project/nigeria/weather_code"
+	loc root = "$code/nigeria/weather_code"
 
 
 * **********************************************************************

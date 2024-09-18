@@ -32,9 +32,9 @@
 	*global user "jdmichler"	// global user set in masterdo
 	
 * define paths	
-	loc root = "G:/My Drive/weather_project/weather_data/nigeria/wave_2/daily"
-	loc export = "G:/My Drive/weather_project/weather_data/nigeria/wave_2/refined"
-	loc logout = "G:/My Drive/weather_project/weather_data/nigeria/logs"
+	loc root = "$data/weather_data/nigeria/wave_2/daily"
+	loc export = "$data/weather_data/nigeria/wave_2/refined"
+	loc logout = "$data/weather_data/nigeria/logs"
 
 * open log	
 	log using "`logout'/nga_ghsy2_weather", replace

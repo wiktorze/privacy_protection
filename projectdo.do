@@ -138,7 +138,7 @@ if $pack == 1 {
 * 3 - build cross-country household panel data set
 * **********************************************************************
 
-	do			"$code/analysis/reg_code/panel_build.do"
+//	do			"$code/analysis/reg_code/panel_build.do"
 
 
 * **********************************************************************

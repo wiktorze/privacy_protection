@@ -23,9 +23,9 @@
 	*global user "jdmichler" // global user set in masterdo
 
 * define paths
-	loc root = "G:/My Drive/weather_project/weather_data/uganda/wave_1/raw"
-	loc export = "G:/My Drive/weather_project/weather_data/uganda/wave_1/daily"
-	loc logout = "G:/My Drive/weather_project/weather_data/uganda/logs"
+	loc root = "$data/weather_data/uganda/wave_1/raw"
+	loc export = "$data/weather_data/uganda/wave_1/daily"
+	loc logout = "$data/weather_data/uganda/logs"
 
 * open log
 	log using "`logout'/uga_unpsy1_converter", replace

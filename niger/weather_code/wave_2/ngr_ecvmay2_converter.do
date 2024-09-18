@@ -23,9 +23,9 @@
 *	global user "jdmichler"
 
 * define paths
-	loc root = "G:/My Drive/weather_project/weather_data/niger/wave_2/raw"
-	loc export = "G:/My Drive/weather_project/weather_data/niger/wave_2/daily"
-	loc logout = "G:/My Drive/weather_project/weather_data/niger/logs"
+	loc root = "$data/weather_data/niger/wave_2/raw"
+	loc export = "$data/weather_data/niger/wave_2/daily"
+	loc logout = "$data/weather_data/niger/logs"
 
 * open log
 	log using "`logout'/ngr_ecvmay2_converter", replace
