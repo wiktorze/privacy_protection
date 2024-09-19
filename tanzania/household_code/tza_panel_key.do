@@ -47,14 +47,14 @@
 	*** this gets us 5,010 unique households
 
 * merge in regional variables from wave 3
-	merge		1:1 y3_hhid using "`import'\wave_3\refined\HH_SECA.dta"
+	merge		1:1 y3_hhid using "`import'/wave_3/refined/HH_SECA.dta"
 	*** all variables merge
 	
 	drop		_merge
 	
 * merge in regional variables from wave 1
 	rename		y1_hhid hhid
-	merge		m:1 hhid using "`import'\wave_1\refined\HH_SECA.dta"
+	merge		m:1 hhid using "`import'/wave_1/refined/HH_SECA.dta"
 	*** only 284 not used
 	
 	drop if		_merge == 2
@@ -63,7 +63,7 @@
 	rename		hhid y1_hhid
 	
 * merge in regional variables from wave 2
-	merge		m:1 y2_hhid using "`import'\wave_2\refined\HH_SECA.dta"
+	merge		m:1 y2_hhid using "`import'/wave_2/refined/HH_SECA.dta"
 	*** only 231 not used
 	
 	drop if		_merge == 2

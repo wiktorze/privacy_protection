@@ -47,7 +47,7 @@
 	lab var 	data "Data Source"
 	
 * define local with all sub-folders in it
-	loc 		folderList : dir "`rootw'" dirs "GHSY1_rf*"
+	loc 		folderList : dir "`rootw'" dirs "ghsy1_rf*"
 
 * define local with all files in each sub-folder	
 	foreach 	folder of local folderList {
@@ -138,7 +138,7 @@
 * **********************************************************************
 
 * define local with all sub-folders in it
-	loc 		folderList : dir "`rootw'" dirs "GHSY1_t*"
+	loc 		folderList : dir "`rootw'" dirs "ghsy1_t*"
 
 * define local with all files in each sub-folder	
 	foreach 	folder of local folderList {
@@ -235,7 +235,7 @@
 	lab var 	data "Data Source"
 	
 * define local with all sub-folders in it
-	loc 		folderList : dir "`rootw'" dirs "GHSY1_rf*"
+	loc 		folderList : dir "`rootw'" dirs "ghsy1_rf*"
 
 * define local with all files in each sub-folder	
 	foreach 	folder of local folderList {
@@ -326,7 +326,7 @@
 * **********************************************************************
 
 * define local with all sub-folders in it
-	loc 		folderList : dir "`rootw'" dirs "GHSY1_t*"
+	loc 		folderList : dir "`rootw'" dirs "ghsy1_t*"
 
 * define local with all files in each sub-folder	
 	foreach 	folder of local folderList {

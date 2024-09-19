@@ -57,7 +57,7 @@
 
 	    if `"`c(username)'"' == "mac" {
         global 		code  	"/Users/mac/Documents/GitHub/privacy_protection"
-		global 		data	"/Users/mac/RUSTDEC Dropbox/RUSTDEC Team Folder/Climate Change/5_Michler's paper replication/Michler's data"
+		global 		data	"/Volumes/Seagate_Basic/RUSTDEC Dropbox/RUSTDEC Team Folder/Climate Change/5_Michler's paper replication/Michler's data"
     }
 
 * **********************************************************************
